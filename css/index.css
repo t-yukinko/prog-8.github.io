@@ -1,0 +1,399 @@
+@import url(common.css);
+.top-img {
+  background-image: url(../img/mv.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 200px;
+  margin-top: 10px;
+}
+.top-text {
+  padding-left: 50px;
+  padding-top: 40px;
+}
+.top-text h1 {
+  font-size: 15px;
+  color: white;
+}
+.top-text p {
+  margin-top: 20px;
+  line-height: 15px;
+  color: white;
+  font-size: 5px;
+  letter-spacing: 1.5px;
+}
+.btn {
+  display: block;
+  text-decoration: none;
+  font-size: 10px;
+  width: 150px;
+  line-height: 25px;
+  margin-top: 40px;
+  border: 2px solid white;
+  color: white;
+  border-radius: 10px;
+  background: border-box;
+  padding-left: 40px;
+}
+.btn:hover {
+  opacity: 0.9;
+  /* 少し透明になる */
+}
+main section.service div.serviceContents {
+  font-size: 12px;
+  padding-top: 30px;
+  text-align: center;
+}
+main section.service .serviceContents p {
+  padding-top: 10px;
+  color: #117ac0;
+  font-size: 7px;
+  margin-bottom: 21px;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.menu {
+  flex-basis: 100%;
+  border: 2px solid skyblue;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+.menu h2 {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.menu p {
+  width: 100%;
+}
+main section.voice {
+  background-color: #f0f0f0;
+}
+main section.voice div.Customervoice h1 {
+  font-size: 24px;
+  padding-top: 60px;
+  text-align: center;
+}
+main section.voice div.Customervoice p {
+  padding-top: 10px;
+  color: #117ac0;
+  font-size: 14px;
+  margin-bottom: 42px;
+  text-align: center;
+}
+.contain h1 img {
+  width: 390px;
+}
+.contain h2 {
+  padding-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+.contain p {
+  font-size: 14px;
+  width: 400px;
+  height: 162px;
+  line-height: 24px;
+
+}
+.contain img {
+  margin-bottom: 27px;
+}
+.web {
+  background-image: url(../img/bg_footer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 200px;
+  padding-left: 10px;
+}
+.alloffice {
+  display: flex;
+}
+.office {
+  margin-top: 40px;
+}
+.office h1 {
+  display: block;
+  font-size: 10px;
+  width: 100px;
+  line-height: 35px;
+  border: 2px solid #0071bc;
+  color: #0071bc;
+  padding-left: 18px;
+  border-radius: 30px;
+  margin-bottom: 21px;
+}
+.office p {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.office p img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.consultation {
+  margin-top: 50px;
+}
+.consultation h2 {
+  font-size: 9px;
+  margin-bottom: 17px;
+}
+.Contact {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  padding-left: 5px;
+  width: 150px;
+  line-height: 30px;
+  border: 2px solid #0071bc;
+}
+footer {
+  background-color: #183879;
+  padding: 20px;
+}
+footer p {
+  padding-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px) {
+  .top-img {
+    background-image: url(../img/mv.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 550px;
+    margin-top: 10px;
+  }
+  .top-text {
+    padding-left: 295px;
+    padding-top: 85px;
+  }
+  .top-text h1 {
+    font-size: 77px;
+    color: white;
+  }
+  .top-text p {
+    margin-top: 50px;
+    line-height: 40px;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+  }
+  .btn {
+    /* 表示形式をブロック */
+    display: block;
+    /* 下線無し */
+    text-decoration: none;
+    /* 文字サイズ20px */
+    font-size: 20px;
+    /* 要素の幅200px */
+    width: 200px;
+    /* 行の高さ50px */
+    line-height: 50px;
+    /* 外余白上50px */
+    margin-top: 120px;
+    /* 外側左余白10px */
+    /* margin-left: 20px; */
+    /*線2px 実線 白  */
+    border: 2px solid white;
+    /* 文字色 白 */
+    color: white;
+    /* 角丸10px */
+    border-radius: 10px;
+    /* 背景　初期値にする */
+    background: border-box;
+    padding-left: 30px;
+  }
+  .btn:hover {
+    opacity: 0.9;
+    /* 少し透明になる */
+  }
+  main section.service div.serviceContents {
+    font-size: 24px;
+    padding-top: 60px;
+    text-align: center;
+  }
+  main section.service .serviceContents p {
+    padding-top: 10px;
+    color: #117ac0;
+    font-size: 14px;
+    margin-bottom: 42px;
+  }
+  .item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  .menu {
+    flex-basis: 350px;
+    margin-left: 35px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    padding-left: 25px;
+    line-height: 25px;
+    height: 206px;
+    padding-top: 29px;
+    padding-bottom: 180px;
+  }
+
+  .menu h2 {
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .menu p {
+    width: 300px;
+  }
+
+  main section.voice {
+    background-color: #f0f0f0;
+    height: 695px;
+  }
+  main section.voice div.Customervoice h1 {
+    font-size: 24px;
+    padding-top: 60px;
+    text-align: center;
+  }
+  main section.voice div.Customervoice p {
+    padding-top: 10px;
+    color: #117ac0;
+    font-size: 14px;
+    margin-bottom: 42px;
+    text-align: center;
+  }
+  .Manufacturing {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  .contain {
+    flex-basis: 350px;
+    margin-left: 35px;
+  }
+  .contain h1 img {
+    width: 350px;
+  }
+  .contain h2 {
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+  .contain p {
+    font-size: 14px;
+    width: 315px;
+    height: 162px;
+    line-height: 24px;
+  }
+  .contain img {
+    margin-bottom: 27px;
+  }
+  .web {
+    background-image: url(../img/bg_footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 299px;
+  }
+  .alloffice {
+    display: flex;
+    margin-left: 280px;
+  }
+  .office {
+    margin-top: 94px;
+    flex-basis: 265px;
+    margin-right: 80px;
+  }
+  .office h1 {
+    display: block;
+    font-size: 15px;
+    width: 133px;
+    line-height: 35px;
+    border: 2px solid #0071bc;
+    color: #0071bc;
+    padding-left: 18px;
+    border-radius: 30px;
+    margin-bottom: 21px;
+  }
+  .office p {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .office p img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .office p span {
+    font-size: 14px;
+  }
+  .consultation {
+    margin-top: 94px;
+  }
+  .consultation h2 {
+    font-size: 18px;
+    margin-bottom: 17px;
+  }
+  .Contact {
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    padding-left: 32px;
+    width: 350px;
+    line-height: 75px;
+    border: 2px solid #0071bc;
+  }
+  .Contact::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 0px;
+    border-top: solid 2px #0071bc;
+    border-right: solid 2px #0071bc;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -10px;
+    margin-right: 20px;
+  }
+  .Contact:hover::after {
+    animation: arrow 1.2s infinite;
+  }
+  @keyframes arrow {
+    50% {
+      right: 0.2em;
+      opacity: 1;
+    }
+    100% {
+      right: -0.4em;
+      opacity: 0;
+    }
+  }
+  footer {
+    bottom: 0;
+    background-color: #183879;
+    width: 100%;
+    padding: 20px;
+  }
+  footer p {
+    padding-left: 960px;
+  }
+}
