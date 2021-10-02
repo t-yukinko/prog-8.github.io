@@ -19,7 +19,7 @@
   margin-top: 20px;
   line-height: 15px;
   color: white;
-  font-size: 5px;
+  font-size: 10px;
   letter-spacing: 1.5px;
 }
 .btn {
@@ -40,14 +40,14 @@
   /* 少し透明になる */
 }
 main section.service div.serviceContents {
-  font-size: 12px;
+  font-size: 15px;
   padding-top: 30px;
   text-align: center;
 }
 main section.service .serviceContents p {
   padding-top: 10px;
   color: #117ac0;
-  font-size: 7px;
+  font-size: 10px;
   margin-bottom: 21px;
 }
 .item {
@@ -72,14 +72,14 @@ main section.voice {
   background-color: #f0f0f0;
 }
 main section.voice div.Customervoice h1 {
-  font-size: 24px;
+  font-size: 15px;
   padding-top: 60px;
   text-align: center;
 }
 main section.voice div.Customervoice p {
   padding-top: 10px;
   color: #117ac0;
-  font-size: 14px;
+  font-size: 10px;
   margin-bottom: 42px;
   text-align: center;
 }
