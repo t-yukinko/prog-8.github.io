@@ -96,7 +96,7 @@ main section.voice div.Customervoice p {
   width: 400px;
   height: 162px;
   line-height: 24px;
-
+  padding-left: 30px;
 }
 .contain img {
   margin-bottom: 27px;
@@ -160,14 +160,6 @@ footer {
 footer p {
   padding-left: 100px;
 }
-
-
-
-
-
-
-
-
 
 @media (min-width: 600px) {
   .top-img {
