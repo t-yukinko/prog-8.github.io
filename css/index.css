@@ -129,6 +129,7 @@ main section.voice div.Customervoice p {
 .office p {
   font-size: 10px;
   margin-bottom: 5px;
+  width: 100%;
 }
 .office p img {
   width: 20px;
@@ -148,8 +149,8 @@ main section.voice div.Customervoice p {
   text-decoration: none;
   color: black;
   font-size: 12px;
-  padding-left: 5px;
-  width: 150px;
+  padding-left: 10px;
+  width: 145px;
   line-height: 30px;
   border: 2px solid #0071bc;
 }
