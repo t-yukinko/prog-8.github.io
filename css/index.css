@@ -111,6 +111,7 @@ main section.voice div.Customervoice p {
 }
 .alloffice {
   display: flex;
+  justify-content: center;
 }
 .office {
   margin-top: 40px;
@@ -127,9 +128,8 @@ main section.voice div.Customervoice p {
   margin-bottom: 21px;
 }
 .office p {
-  font-size: 10px;
+  font-size: 9px;
   margin-bottom: 5px;
-  width: 165px;
 }
 .office p img {
   width: 20px;
