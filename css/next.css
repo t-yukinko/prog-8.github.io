@@ -1,0 +1,86 @@
+@import url(common.css);
+
+main article {
+  margin-top: 20px;
+}
+main article .foo {
+  display: inline-block;
+  /* margin-left: 250px; */
+  font-size: 20px;
+  text-decoration: none;
+  border-bottom: 3px solid slateblue;
+  font-weight: bold;
+  color: #000;
+  padding-bottom: 2px;
+  margin-left: 40px;
+}
+main article table {
+  border-collapse: collapse;
+  /* margin-left: 250px; */
+  margin-top: 50px;
+  width: 420px;
+  line-height: 50px;
+}
+main article table th {
+  border: 1px solid #b7b7b7;
+  padding: 10px 20px;
+  vertical-align: middle;
+}
+main article table td {
+  border: 1px solid #b7b7b7;
+  padding: 10px 20px;
+}
+tr:hover{
+  cursor: default;
+  background: skyblue;
+}
+main p {
+  margin: 50px ;
+}
+
+
+
+
+
+
+
+@media (min-width: 600px) {
+  main article {
+    margin-top: 20px;
+  }
+  
+  main article .foo {
+    display: inline-block;
+    margin-left: 250px;
+    font-size: 40px;
+    text-decoration: none;
+    border-bottom: 3px solid slateblue;
+    font-weight: bold;
+    color: #000;
+    padding-bottom: 2px;
+  }
+  main article table {
+    border-collapse: collapse;
+    margin-left: 250px;
+    margin-top: 50px;
+    width: 600px;
+    line-height: 50px;
+  }
+  main article table th {
+    border: 1px solid #b7b7b7;
+    padding: 10px 20px;
+    vertical-align: middle;
+  }
+  main article table td {
+    border: 1px solid #b7b7b7;
+    padding: 10px 20px;
+  }
+  tr:hover{
+    cursor: default;
+    background: skyblue;
+  }
+  
+  main p {
+    margin: 50px 250px;
+  }
+}
