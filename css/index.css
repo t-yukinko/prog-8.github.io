@@ -82,8 +82,7 @@ main section.voice div.Customervoice p {
 footer {
   background-color: #183879;
 }
-
-@media screen and (min-width: 480px) and (max-width: 700px) {
+@media screen and (min-width: 0px) and (max-width: 700px) {
   .top-img {
     height: 300px;
   }
