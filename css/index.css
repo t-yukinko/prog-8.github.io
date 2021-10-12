@@ -82,7 +82,130 @@ main section.voice div.Customervoice p {
 footer {
   background-color: #183879;
 }
-@media screen and (min-width: 0px) and (max-width: 500px) {
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .top-img {
+    height: 300px;
+  }
+  .top-text {
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+  .top-text h1 {
+    font-size: 20px;
+  }
+  .top-text p {
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+  }
+  .btn {
+    font-size: 15px;
+    width: 150px;
+    line-height: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-left: 20px;
+  }
+  main section.service div.serviceContents {
+    font-size: 15px;
+    padding-top: 30px;
+  }
+  main section.service .serviceContents p {
+    padding-top: 10px;
+    font-size: 14px;
+    margin-bottom: 42px;
+  }
+  .item {
+    margin-bottom: 60px;
+    justify-content: center;
+    max-width: 400px;
+  }
+  .menu h2 {
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .menu p {
+    font-size: 15px;
+  }
+  main section.voice div.Customervoice h1 {
+    font-size: 15px;
+    padding-top: 20px;
+  }
+  main section.voice div.Customervoice p {
+    padding-top: 10px;
+    font-size: 14px;
+    margin-bottom: 42px;
+  }
+  .contain h1 img {
+    max-width: 400px;
+  }
+  .contain h2 {
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .contain p {
+    font-size: 14px;
+    max-width: 300px;
+    height: 162px;
+    line-height: 24px;
+    margin-left: 20px;
+  }
+  .contain img {
+    margin-bottom: 27px;
+  }
+  .web {
+    height: 299px;
+  }
+  .office {
+    margin-top: 80px;
+    /* margin-right: 5px; */
+  }
+  .office h1 {
+    font-size: 10px;
+    width: 90px;
+    line-height: 35px;
+    padding-left: 12px;
+    margin-bottom: 21px;
+    border-radius: 20px;
+  }
+  .office p {
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .office p img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+  .office p span {
+    font-size: 5px;
+  }
+  .consultation {
+    margin-top: 90px;
+  }
+  .consultation h2 {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .Contact {
+    font-size: 10px;
+    width: 110px;
+    line-height: 50px;
+    padding-left: 5px;
+  }
+  footer {
+    padding: 20px;
+  }
+  footer p img {
+    max-width: 200px;
+
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
   .top-img {
     height: 300px;
   }
