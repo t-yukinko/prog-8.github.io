@@ -138,8 +138,11 @@ footer {
     font-size: 14px;
     margin-bottom: 42px;
   }
+  .contain {
+    padding-bottom: 50px;
+  }
   .contain h1 img {
-    max-width: 400px;
+    width: 350px;
   }
   .contain h2 {
     padding-bottom: 10px;
@@ -148,7 +151,7 @@ footer {
   }
   .contain p {
     font-size: 14px;
-    max-width: 300px;
+    width: 320px;
     height: 162px;
     line-height: 24px;
     margin-left: 20px;
@@ -560,7 +563,6 @@ footer {
   }
   .Manufacturing {
     display: flex;
-    /* margin-bottom: 60px; */
   }
   .contain {
     flex-basis: 100%;
@@ -579,6 +581,7 @@ footer {
     height: 162px;
     line-height: 15px;
     margin-left: 10px;
+    margin-bottom: 60px;
   }
   .contain img {
     margin-bottom: 27px;
